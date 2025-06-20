@@ -33,3 +33,59 @@ body {
   border-radius: 8px;
   object-fit: cover;
 }
+
+
+
+
+
+
+
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 169px;
+  height: 80px;
+}
+
+.widget p {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.widget .color {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.widget .change-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+}
+
+.widget .change-color:hover {
+  background-color: #0056b3;
+}
